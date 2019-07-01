@@ -198,6 +198,149 @@ header{
 }
 
 
+/* ////////////////////////Main Home///////////////////////// */
+
+.main-home{
+    float: left;
+    width: 100%;
+    padding: 100px 0;
+}
+.post-home-1{
+    float: left;
+    width: 100%;
+    border:1px solid #f1f1f3;
+    letter-spacing: 2px;
+    margin:0 0 30px 0;
+    text-align: center;
+    position: relative;
+}
+.post-home-1 .post-body{
+    float: left;
+    width: 100%;
+    padding: 5rem 4rem 4rem 4rem;
+    border-bottom:1px solid #f1f1f3;
+}
+
+.post-home-1 .heading-top{
+    color: #999999;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.post-home-1 .heading-bottom{
+    color: #999999;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.post-home-1 h4{
+    color: #212121;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.post-home-1 .text{
+    color: #464646;
+    font-size: 15px;
+    line-height: 1.7;
+}
+.post-home-1 .post-body .text-light{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/*//////////////// right-post/////////////// */
+
+.right-post{
+    float: left;
+    width: 100%;
+    padding: 3rem;
+    background-color: #fff;
+}
+.right-post .form-control{
+    height: 50px;
+    border:1px solid #f3f3f3;
+    border-radius:0;
+}
+.right-post .input-group-text{
+    font-size: 14px;
+    background-color: #212121;
+    border-radius: 0;
+    color: #fff;
+    border:0;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    padding-left: 16px;
+    font-size: 18px !important;
+}
+.right-post-cat{
+    float: left;
+    width: 100%;
+}
+.Catagories{
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.Catagories h5{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f7f7f7 !important;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #212121;
+}
+.Catagories table tr td{
+    font-size: 16px !important;
+    border-bottom: 1px solid #f7f7f7 !important;
+    text-transform: uppercase;
+    border-top: 0;
+    letter-spacing: 2px;
+    color: #212121;
+}
+.Latest-Post{
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+.Latest-Post h5{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f7f7f7 !important;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #212121;
+}
+.Latest-Post h6{
+    font-size: 16px;
+    font-weight: bold;
+    color: #212121;
+    text-transform: uppercase;
+}
+.Latest-Post span{
+    font-size: 16px;
+    color: #999999;
+}
+.home-post-social ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.home-post-social ul li{
+    display: inline-block;
+}
+.home-post-social ul li a span{
+    padding: 0 16px;
+    color: #464646;
+    font-size: 24px !important;
+}
+/* ////////////////////////Main Home End///////////////////////// */
 
 
 
