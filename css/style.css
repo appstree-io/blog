@@ -41,13 +41,13 @@ header{
 .home{
     float: left;
     width: 100%;
+    margin-top: 68px;
 }
 .bg-img{
     float: left;
     width: 100%;
     background-image: url(../images/bg.jpg);
     height: 500px;
-    margin:68px 0 0 0;
     background-size: cover;
 }
 .bg-img-text{
@@ -342,8 +342,110 @@ header{
 }
 /* ////////////////////////Main Home End///////////////////////// */
 
+/* ///////////////Blog Detail///////////////////// */
 
+.post-angle{
+    float: left;
+    width: 100%;
+}
+.post-angle p{
+    margin: 0;
+}
+.post-angle .Previous-post{
+    padding: 50px 0;
+    background-color: #000000;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    cursor: pointer;
+}
+.post-angle .Next-post{
+    padding: 50px 0;
+    background-color: #3a3c49;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    cursor: pointer;
+}
+.all-post{
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    letter-spacing: 2px;
+}
+.media-body h4{
+    font-size: 16px;
+    color: #212121;
+    text-transform: uppercase;
+}
+.media-body h4 span{
+    float:right
+}
 
+.detail-social{
+    float: left;
+    width: 100%;
+}
+.icon-social{
+    width:100%;
+    float: left;
+    background-color: #fff;
+}
+.icon-left{
+    float: left;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid #f7f7f7;
+    line-height: 0.7;
+    color:#212121;
+}
+.icon-left:hover{
+    background-color: #212121;
+    color:#fff;
+    cursor: pointer;
+}
+.likes{
+    max-width: 100%;
+    border: 1px solid #f7f7f7;
+    border-left:0;
+}
+.likes p{
+    max-width: 400px;
+    text-align: center;
+    margin: 0;
+    padding: 11px 0;
+    color: #999999;
+    letter-spacing: 2px;
+}
+
+/* recomended-posts */
+.recomended-posts{
+    float: left;
+    width: 100%;
+    margin: 30px 0;
+    padding: 40px 30px;
+    background-color: #fff;
+    letter-spacing: 2px;
+}
+.recomended-posts p{
+    font-size: 20px;
+    color: #212121;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.recomended-posts span{
+    padding: 10px 12px;
+    background-color: #212121;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #212121;
+}
+.recomended-posts span:hover{
+    padding: 10px 12px;
+    background-color: #fff;
+    color: #212121;
+}
 /* blog-footer */
 .blog-footer{
     float: left;
