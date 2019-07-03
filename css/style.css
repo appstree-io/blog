@@ -446,6 +446,52 @@ header{
     background-color: #fff;
     color: #212121;
 }
+
+/* //////////////contact-US///////////////// */
+
+.contact-map{
+    float: left;
+    width: 100%;
+    padding:0 15px 15px 15px;
+    letter-spacing: 2px;
+}
+.contact-adress{
+    float: left;
+    width: 100%;
+    padding: 96px 30px;
+    background-color: #fff;
+}
+.contact-adress h3{
+    color: #212121;
+    padding:0 15px;
+}
+.contact-adress p{
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #424242;
+}
+.contact-form{
+    float: left;
+    width: 100%;
+    padding: 2rem 0;
+}
+.contact-form .form-control{
+    height: 50px;
+    border:1px solid #f3f3f3;
+    border-radius:0;
+}
+.contact-form  .form-control-m{
+    height: auto;
+}
+.contact-form  button{
+    width: 170px;
+    height: 50px;
+    color: #fff;
+    background-color: #212121;
+    text-transform: uppercase;
+    border: 0;
+}
 /* blog-footer */
 .blog-footer{
     float: left;
