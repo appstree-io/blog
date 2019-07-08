@@ -611,9 +611,15 @@ header{
         height:260px;
         align-items: baseline;
     }
+    .bg-img-text {
+      padding: 100px 20px 70px 65px;
+    }
+    .text-angle-padding {
+      padding: 90px 0 0 0;
+    }
 }
 
-@media (max-width: 600px){
+@media (max-width: 767px){
     .social-media{
         display: none;
     }
@@ -628,6 +634,15 @@ header{
     .navbar{
         height:200px;
         align-items: baseline;
+    }
+    .text-angle-padding {
+      padding: 30px 0 0 0;
+    }
+    .bg-img-text {
+      padding: 60px 0px 70px 30px;
+    }
+    .bg-img-text h1 {
+      font-size: 18px;
     }
 }
 
