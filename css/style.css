@@ -601,6 +601,26 @@ header{
     letter-spacing: 2px;
     padding-bottom: 20px;
 }
+body { display:block; }
+@media only screen and (orientation:portrait){
+  body {  
+    height: 100vw;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+@media only screen and (orientation:landscape){
+  body {  
+     -webkit-transform: rotate(0deg);
+     -moz-transform: rotate(0deg);
+     -o-transform: rotate(0deg);
+     -ms-transform: rotate(0deg);
+     transform: rotate(0deg);
+  }
+}
 @media (max-width: 1200px){
     .bg-img{
         background-image: url(../images/bg.jpg);
