@@ -651,16 +651,16 @@ body { display:block; }
     }
     @media only screen and (orientation:portrait){
       .orent {  
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        transform: rotate(90deg);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -o-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
       }
     }
     @media only screen and (orientation:landscape){
       .orent {  
-        height: 100vw;
+        width: 100vw;
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
         -o-transform: rotate(90deg);
