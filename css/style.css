@@ -649,30 +649,20 @@ body { display:block; }
     .orent{
       display:block; 
     }
-    @media only screen and (orientation:portrait){
-      .orent {  
-        -webkit-transform: rotate(0);
-        -moz-transform: rotate(0);
-        -o-transform: rotate(0);
-        -ms-transform: rotate(0);
-        transform: rotate(0);
-      }
-    }
-    @media only screen and (orientation:landscape){
-      .orent {  
-        width: 100vw;
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        transform: rotate(90deg);
-        overflow-y: hidden;
-      }
-    }
 }
 
 
-
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}
 
 
 
