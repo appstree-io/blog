@@ -1,5 +1,5 @@
 # blog
 
-[DEMO](https://suavis-technologies.github.io/blog/)
+[DEMO](https://appstree-io.github.io/blog/)
 
 Not Final
